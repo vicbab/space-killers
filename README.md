@@ -1,11 +1,5 @@
 # SPACE KILLERS
 
-This is Game Wolf Studios README
-================================
-
-Game Wolf studios are an Indie game company based out of Montreal.
-
-
 ## To play the game
 
 By playing our games you agree to all our terms of service. Any infringement of
@@ -20,8 +14,8 @@ If you have any problems, comments or other please email us at:
 
 ## For Windows
 
-Make sure you have python 3.2 or newer installed. You need to install pygame
-version 1.9 for your version of python.
+Make sure you have python 3.2 or newer installed. You need to install the pygame
+module version 1.9 for your version of python.
 
 Extract file to a folder of your computer.
 
@@ -65,11 +59,13 @@ the debuging instructions below:
 
 ## People who have worked on these games are listed below
 
-Head programmer: The Wolf,
-email: thewolf@gaming.cx
+Head programmer: 
+    The Wolf
+    thewolf@gaming.cx
 
-Main artist: Victor B.,
-vicbab.github.io
+Main artist: 
+    Victor B.
+    https://vicbab.github.io
 
 If you would like to  participate in working on any games released by Game Wolf
 Studios, you can do so by emailing us at the appropriate address.
