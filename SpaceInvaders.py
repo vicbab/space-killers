@@ -595,7 +595,7 @@ class Choice(pygame.sprite.Sprite):
         return self.choice
 
 class Menu(pygame.Surface):
-    def __init__(self,width,height,file='versions.txt'):
+    def __init__(self,width,height,file='lib/txt/versions.txt'):
 
         pygame.Surface.__init__(self,(width, height))
         versionsFile = open(file,'r')
