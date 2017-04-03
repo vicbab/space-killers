@@ -652,7 +652,7 @@ menu = Menu(WIDTH,HEIGHT)
 Invader.setSpeed(30)
 Invader.setScore(5)
 
-line = open('highscore.txt','r')
+line = open('/lib/txt/highscore.txt','r')
 line = line.readline()
 highscore = line.strip()
 
@@ -825,7 +825,7 @@ while True:
             screen.blit(gallery, (0,0)) # draw the whole game
             pygame.display.update()
             if gallery.points > int(highscore):
-                file = open('highscore.txt','w')
+                file = open('/lib/txt/highscore.txt','w')
                 file.write(str(gallery.points)+'\n')
                 file.close()
             pygame.time.wait(3000)
@@ -838,7 +838,7 @@ while True:
 
     elif state=='menu':
         if not pygame.mixer.music.get_busy():
-            pygame.mixer.music.load('MenuMusic.ogg')
+            pygame.mixer.music.load('lib/music/MenuMusic.ogg')
             pygame.mixer.music.play(-1)
             pygame.mixer.music.set_volume(10)
         menu.update()
